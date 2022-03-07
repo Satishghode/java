@@ -30,7 +30,7 @@ public class butter1 {
  
            int s = 2 * (n-i);
            for(int k=1; k<=s; k++) {
-               System.out.print("@");
+               System.out.print(" ");
            }
            //inner to inner conditiion print to star
  
@@ -50,7 +50,7 @@ public class butter1 {
 
         int s = 2 * (n-i);
         for(int j=1; j<=s; j++) {
-            System.out.print("@");
+            System.out.print(" ");
         }
         // print the lower right star
 
