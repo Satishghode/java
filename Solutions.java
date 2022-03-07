@@ -1,4 +1,11 @@
 /*
+         print the pattren
+         
+         
+          *       *
+          * *     * *
+          * * *   * * *
+          * * * * * * * *
 
 */
 
@@ -14,7 +21,7 @@ public class Solutions {
        //upper part
        for(int i=1; i<=n; i++) {
            for(int j=1; j<=i; j++) {
-               System.out.print("*");
+               System.out.print(" *");
            }
  
            int s = 2 * (n-i);
@@ -23,7 +30,9 @@ public class Solutions {
            }
  
            for(int j=1; j<=i; j++) {
-               System.out.print("*");
+               System.out.print(" *");
            }
            System.out.println();
        }
+   }
+}
