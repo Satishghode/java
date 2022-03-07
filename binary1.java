@@ -1,3 +1,15 @@
+/*
+
+        print the following pattren using binary
+        
+            1 
+            0 1 
+            1 0 1 
+            0 1 0 1 
+            1 0 1 0 1
+
+*/
+
 public class binary1 {
     public static void main(String agrs[]){
         int n = 50 ;
